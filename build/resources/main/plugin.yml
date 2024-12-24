@@ -1,0 +1,16 @@
+name: XapNguaV2
+version: '2.1'
+main: me.ledat.xapNguaV2.XapNguaV2
+api-version: '1.21'
+commands:
+  xmm:
+    description: Lệnh cược xấp ngửa
+    usage: /xmm gui/cuoc/quest
+    aliases: [xapngua, taixiu]
+permissions:
+  xmm.use:
+    description: Cho phép người chơi sử dụng lệnh cược
+    default: true
+softdepend:
+  - Vault
+  - PlaceholderAPI

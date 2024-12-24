@@ -1,0 +1,38 @@
+daily-challenges:
+  challenge-1:
+    name: "Thử thách 1 &7(Dễ)"
+    description: "Cược vào Xấp 5 lần trong ngày để nhận quà đặc biệt"
+    type: "bet-xap"
+    target: 5
+    reward:
+      name: "10$"
+      type: "money"
+      amount: 10
+  challenge-2:
+    name: "Thử thách 2 (Dễ)"
+    description: "Thắng 3 lần cược liên tiếp để nhận thưởng"
+    type: "win-streak"
+    target: 3
+    reward:
+      name: "x5 Kim cương"
+      type: "item"
+      item: "DIAMOND"
+      amount: 5
+  challenge-3:
+    name: "Thử thách 3 (Trung bình)"
+    description: "Thắng 6 lần cược liên tiếp để nhận thưởng"
+    type: "win-streak"
+    target: 6
+    reward:
+      name: "5000$"
+      type: "money"
+      amount: 5000
+  challenge-4:
+    name: "Thử thách 4"
+    description: "Thắng 9 lần cược liên tiếp để nhận thưởng"
+    type: "win-streak"
+    target: 9
+    reward:
+      name: "8000$"
+      type: "money"
+      amount: 8000

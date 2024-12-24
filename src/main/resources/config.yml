@@ -1,0 +1,32 @@
+#PlaceholderAPI
+
+#Tổng số cược Xấp: %xapngua_total_xap%
+#Tổng số cược Ngửa: %xapngua_total_ngua%
+#Trạng thái cược của bạn: %xapngua_players%
+#Thời gian còn lại: %xapngua_session_duration%
+#Tổng số trận chơi: %xapngua_games_played%
+#Tổng số trận thắng: %xapngua_games_won%
+#Tổng tiền thắng: %xapngua_total_winnings%
+#Tổng số tiền cược: %xapngua_total_bet_amount%
+#Tỷ lệ thắng: %xapngua_win_rate%
+
+
+messages:
+  bet_win: "&aChúc mừng! Bạn đã thắng {amount}!"
+  bet_lose: "&cRất tiếc! Bạn đã thua {amount}!"
+  subtitle_win: "Kết quả: {result}!"
+  subtitle_lose: "Kết quả: {result}!"
+  session_end: "&cPhiên cược đã kết thúc! Kết quả là: {result}!"
+
+session:
+  duration: 400 # Thời gian mỗi phiên cược (giây)
+
+win-multiplier: 2.0
+max-bet-amount: 4000000.0
+bet-time-limit: 15
+
+money-format:
+  enabled: true # Bật hoặc tắt tính năng định dạng tiền
+  decimals: 1 # Số chữ số thập phân
+
+

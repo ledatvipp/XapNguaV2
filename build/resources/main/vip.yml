@@ -1,0 +1,25 @@
+community:
+  vip-players:
+    player1:
+      rank: "VIP"
+      join-date: "2024-01-01"
+    player2:
+      rank: "VIP"
+      join-date: "2024-03-15"
+  community-events:
+    event-1:
+      name: "Cuộc thi tháng"
+      description: "Cuộc thi dành cho các thành viên VIP"
+      start-time: "2024-04-01 12:00:00"
+      end-time: "2024-04-30 23:59:59"
+      rewards:
+        type: "money"
+        amount: 1000
+    event-2:
+      name: "Chúc Mừng Sinh Nhật"
+      description: "Sự kiện sinh nhật cộng đồng"
+      start-time: "2024-05-01 00:00:00"
+      end-time: "2024-05-01 23:59:59"
+      rewards:
+        type: "xp"
+        amount: 500
